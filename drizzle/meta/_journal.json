@@ -15,6 +15,13 @@
       "when": 1716230100142,
       "tag": "0001_supreme_valeria_richards",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1716428069013,
+      "tag": "0002_quiet_revanche",
+      "breakpoints": true
     }
   ]
 }
