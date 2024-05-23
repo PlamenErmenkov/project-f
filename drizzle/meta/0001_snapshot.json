@@ -41,9 +41,7 @@
       "compositePrimaryKeys": {
         "flashcard_id": {
           "name": "flashcard_id",
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       },
       "uniqueConstraints": {}
@@ -86,12 +84,8 @@
           "name": "namespace_topicid_topic_id_fk",
           "tableFrom": "namespace",
           "tableTo": "topic",
-          "columnsFrom": [
-            "topicid"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["topicid"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -99,9 +93,7 @@
       "compositePrimaryKeys": {
         "namespace_id": {
           "name": "namespace_id",
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       },
       "uniqueConstraints": {}
@@ -129,9 +121,7 @@
       "compositePrimaryKeys": {
         "topic_id": {
           "name": "topic_id",
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       },
       "uniqueConstraints": {}
@@ -173,9 +163,7 @@
       "compositePrimaryKeys": {
         "user_id": {
           "name": "user_id",
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       },
       "uniqueConstraints": {}
